@@ -48,3 +48,4 @@ PRODUCT_PACKAGES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/pstar/pstar-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
